@@ -1,0 +1,21 @@
+.pp{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid #ffc107;
+}
+.none{
+    display: none;
+}
+.contactAdd{
+    width: 400px; 
+    position:absolute; 
+    z-index: 1000 !important;
+}
+@media screen and(max-width:400px) {
+    .contactAdd{
+        width: 340px !important; 
+        position:absolute; 
+        z-index: 1000 !important;
+    }
+}
